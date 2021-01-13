@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px){
+    .head-wrap{
+        position: fixed;
+        display: block;
+        width: 100vw;
+        height: 10vh;
+        top: 0;
+        height: 10vh;
+        margin-left: unset;
+        background-color: unset;
+    }
+    .bg-light{
+        background-color:#f8f9fa !important;
+    }
+    .nav ul li a{
+        font-size: 1em;
+    }
+    .content-section{
+        margin-top: 20vh;
+    }
+    .hold{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-links{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+    }
+
+    .wrapper{
+        position: unset;
+        top: unset;
+    }
+    .body-wrap{
+        position: relative;
+        /* height: 500px; */
+    }
+    .slider{
+        height: 500px;
+        width: 100%;
+        margin: unset;
+    }
+    .slider img{
+        width: 100%;
+        height: 100%;
+        padding: unset;
+        padding: 4px;
+       
+    }
+    .news{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        font-size: 1.2em !important;
+        
+    }
+    .head-wrap{
+        width: 25vw !important;
+    }
+    .nav.nav-link-link {
+        display: block;
+        padding: unset;
+    }
+    .social-links{
+        bottom: 28%;
+    }
+    .slider{
+        margin-left: 28vw;
+    }
+    .slider img{
+        width: 550px;
+        height: 500px;
+    }
+    .wrapper{
+        position: relative;
+        top: 20vh;
+    }
+  
+
+}
+@media screen and (min-width: 1024px) and (max-width:1281px){
+    .head-wrap{
+        position: fixed;
+    }
+    .news{
+        margin-left:25%;
+        max-width: 75%;
+    }
+    .head-wrap{
+        position: fixed;
+        width: 25vw !important;
+    } 
+    body{
+        font-size: 1.2em !important;
+        
+    }
+    .nav.nav-link-link {
+        display: block;
+        padding: unset;
+    }
+    .social-links{
+        bottom: 36%;
+    }
+    .slider{
+        margin-left: 28vw;
+    }
+    .slider img{
+        width: 550px;
+        height: 500px;
+    }
+
+} 
