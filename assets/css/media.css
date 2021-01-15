@@ -64,8 +64,10 @@
     overflow-x: scroll;
     display: flex;
   }
-  .news {
+  #news {
     margin-top: 30%;
+    margin-left: unset;
+    font-size: 1rem;
   }
 }
 

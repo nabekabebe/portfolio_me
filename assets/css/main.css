@@ -182,11 +182,13 @@ nav ul li a {
 }
 
 /* contact style */
+#news {
+  margin-left: 23vw;
+  margin-top: 10vh;
+}
 .preview img {
-  padding-top: 20px;
   width: 60vw;
   max-height: 55vh;
-  margin: 20% 0 5% 0;
 }
 .article-text h2,
 .article-text p {
