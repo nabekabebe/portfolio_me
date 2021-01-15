@@ -92,9 +92,37 @@ nav ul li a {
   padding: 0.5rem 1rem;
   font-size: larger;
 }
+.social-links .dropup .dropdown-toggle::after {
+  display: none;
+}
 .social-links ul li {
   list-style: none;
   display: inline;
+}
+.social-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.social-links .dropdown-menu {
+  margin-left: -3.5rem;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+.custom_drop div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.social-links .dropdown-menu::before {
+  position: absolute;
+  content: '';
+  bottom: -0.65rem;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  transform: translateX(-50%) rotate(45deg);
+  background-color: white;
+  border-bottom: 1px rgb(221, 221, 221) solid;
+  border-right: 1px rgb(221, 221, 221) solid;
 }
 .links {
   margin-left: 5%;
@@ -126,6 +154,7 @@ nav ul li a {
   font-family: arial;
   font-size: 11px;
 }
+
 /* styling slide section */
 .content-section {
   position: absolute;
