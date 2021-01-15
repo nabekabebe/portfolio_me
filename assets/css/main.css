@@ -5,7 +5,11 @@
   box-sizing: border-box;
   color: black;
 }
-
+body,
+html {
+  max-height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
 /* index page style */
 #intro {
   background-image: url('../../img/profile_img.jpg');
@@ -14,6 +18,7 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .cover_all {
   position: relative;
@@ -25,23 +30,25 @@
 }
 .head-wrap {
   position: fixed;
-  width: 12vw;
-  height: 70vh;
-  margin-left: 10px;
-  background-color: rgba(255, 255, 255, 0.95);
+  width: 13vw;
+  height: 80vh;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.97);
   z-index: 3;
 }
 
 /* navigation bar styles */
+nav ul {
+  height: 42vh;
+}
 nav ul li {
   display: block;
-  line-height: 0.2em !important;
+  line-height: 0.25em !important;
   text-decoration: none;
 }
 nav ul li a {
   color: rgb(0, 0, 0) !important;
-  font-family: 'Roboto Slab', serif;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-style: normal;
   font-weight: normal;
 }
@@ -79,11 +86,11 @@ nav ul li a {
 
 /* social links styling */
 .social-links {
-  position: absolute;
-  bottom: 15.5%;
+  margin-top: auto;
   width: 100%;
   z-index: 4;
   padding: 0.5rem 1rem;
+  font-size: larger;
 }
 .social-links ul li {
   list-style: none;
@@ -98,7 +105,27 @@ nav ul li a {
 .hidden div {
   margin-right: 5px;
 }
-
+.share_btn {
+  color: #ffffff;
+  background: #000000;
+  margin: 3px 3px 4px 0;
+  padding: 4px 11px;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0.04em;
+  top: -3px;
+  text-decoration: none;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  font-family: arial;
+  font-size: 11px;
+}
 /* styling slide section */
 .content-section {
   position: absolute;
@@ -111,7 +138,7 @@ nav ul li a {
 .slider {
   height: 100%;
   width: 10500px;
-  margin-left: 13vw;
+  margin-left: 18vw;
   display: inline-block;
 }
 .slider img,
@@ -155,7 +182,6 @@ nav ul li a {
 }
 
 /* contact style */
-
 .preview img {
   padding-top: 20px;
   width: 60vw;
