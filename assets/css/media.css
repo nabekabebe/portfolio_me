@@ -74,6 +74,14 @@
     max-height: 60vh;
     margin-top: 1rem;
   }
+  .sites {
+    margin-top: 50%;
+    font-size: small;
+  }
+  #sites {
+    margin-top: 20vh;
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -81,7 +89,11 @@
     font-size: 1.2em !important;
   }
   .head-wrap {
-    width: 25vw !important;
+    font-size: small;
+    height: 60vh;
+  }
+  nav ul {
+    height: 32vh;
   }
   .nav.nav-link-link {
     display: block;

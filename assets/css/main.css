@@ -95,6 +95,7 @@ nav ul li a {
 .social-links .dropup .dropdown-toggle::after {
   display: none;
 }
+
 .social-links ul li {
   list-style: none;
   display: inline;
@@ -108,9 +109,16 @@ nav ul li a {
   margin-bottom: 1.2rem;
   position: relative;
 }
-.custom_drop div {
+.custom_drop a {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  border-bottom: 1px rgb(226, 226, 226) solid;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.custom_drop a:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 .social-links .dropdown-menu::before {
   position: absolute;
@@ -154,6 +162,14 @@ nav ul li a {
   font-family: arial;
   font-size: 11px;
 }
+.share_btn:active,
+.share_btn:hover {
+  background: black !important;
+  filter: unset;
+  opacity: 1;
+  transition: unset;
+  color: white;
+}
 
 /* styling slide section */
 .content-section {
@@ -181,8 +197,11 @@ nav ul li a {
 /* sites page style */
 #carousel_style {
   width: 95%;
-  box-shadow: 1px 1px 5px 2px rgb(31, 31, 32);
+  box-shadow: inset 4px 4px 5px 10px rgb(31, 31, 32);
   margin-top: 30px;
+}
+#sites {
+  margin-left: 23vw;
 }
 .title {
   position: relative;
