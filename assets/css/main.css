@@ -184,11 +184,11 @@ nav ul li a {
 /* contact style */
 #news {
   margin-left: 23vw;
-  margin-top: 10vh;
 }
 .preview img {
   width: 60vw;
   max-height: 55vh;
+  margin-top: 21vh;
 }
 .article-text h2,
 .article-text p {
@@ -215,9 +215,10 @@ nav ul li a {
 }
 .form_block {
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 150px;
   max-width: 500px;
+  padding-bottom: 2rem;
 }
 
 /* blog style */

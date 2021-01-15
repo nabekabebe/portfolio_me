@@ -69,6 +69,11 @@
     margin-left: unset;
     font-size: 1rem;
   }
+  .preview img {
+    width: 90vw;
+    max-height: 60vh;
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
