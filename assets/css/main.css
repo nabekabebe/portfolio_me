@@ -255,18 +255,43 @@ nav ul li a {
   font-size: 0.9em;
 }
 .break {
-  max-width: 25rem;
-  border-bottom: 2px solid rgb(151, 151, 151);
+  max-width: 20rem;
+  border-bottom: 1px solid rgb(114, 112, 112);
   box-shadow: 0 0.1px 0.4px black;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .form_block {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 150px;
-  max-width: 500px;
+  max-width: 600px;
   padding-bottom: 2rem;
+}
+.form_block .btn-primary {
+  background-color: white;
+  color: black;
+  margin-top: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid rgb(151, 151, 151);
+}
+.form_block .btn-primary:active {
+  background-color: white;
+  outline: none;
+}
+.form_block input,
+.form_block textarea {
+  width: 100%;
+  padding: 0.8rem;
+}
+.form_block input,
+.form_block textarea:focus {
+  outline: none;
+}
+.form_block input[type='text'],
+.form_block input[type='email'] {
+  border: 1px solid rgb(151, 151, 151);
+  border-bottom: none;
 }
 
 /* blog style */

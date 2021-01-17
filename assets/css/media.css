@@ -82,6 +82,10 @@
     margin-top: 20vh;
     margin-left: 0;
   }
+  .form_block {
+    max-width: 90vw;
+    padding-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
