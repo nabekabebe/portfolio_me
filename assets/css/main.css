@@ -299,6 +299,15 @@ nav ul li a {
   padding: 10px;
   margin-bottom: 40px;
 }
+#blog {
+  max-width: 780px;
+}
+#blog h4 {
+  font-size: large;
+}
+#blog .bg_txt {
+  font-size: smaller;
+}
 time {
   opacity: 0.5;
   font-size: small;
@@ -315,9 +324,6 @@ time {
   font-family: 'Roboto Slab' serif;
   padding: 30px;
   padding-left: 0;
-}
-.blogs {
-  margin-left: 40px;
 }
 .line {
   width: 100%;
