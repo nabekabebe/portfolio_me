@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .head-wrap {
     position: fixed;
     display: block;
@@ -97,13 +97,19 @@
   .spc h4 {
     font-size: large;
   }
+
+  #blog {
+    max-width: unset;
+    margin-left: 0;
+  }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     font-size: 1.2em !important;
   }
   .head-wrap {
+    position: fixed;
     font-size: small;
     top: 10vh;
     height: 80vh;
@@ -126,23 +132,32 @@
     width: 550px;
     height: 500px;
   }
+  .content-section {
+    overflow-x: scroll;
+  }
   .wrapper {
-    position: relative;
+    position: fixed;
     top: 20vh;
+  }
+
+  #blog {
+    max-width: 400px;
+    margin-left: 40%;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1281px) {
   .head-wrap {
     position: fixed;
+    font-size: small;
+    top: 10vh;
+    height: 80vh;
+    width: 180px;
   }
   .news {
     margin-left: 25%;
     max-width: 75%;
   }
-  .head-wrap {
-    position: fixed;
-    width: 25vw !important;
-  }
+
   body {
     font-size: 1.2em !important;
   }
@@ -159,5 +174,9 @@
   .slider img {
     width: 550px;
     height: 500px;
+  }
+  #blog {
+    max-width: 400px;
+    margin-left: 34%;
   }
 }
